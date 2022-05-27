@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Arvo', serif;
-    background-image: url("https://raw.githubusercontent.com/gabrielpser/Weather-page/42ea3588aceef9a2874cedb83cbf347909933169/Singularidade.jpg");
+    background-image: url("/backgrounds/cloudy.jpg");
     background-size: cover;
 }
 
