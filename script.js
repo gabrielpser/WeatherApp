@@ -7,6 +7,7 @@ const api = {
 
 const city = document.querySelector('.city')
 const date = document.querySelector('.date');
+const container_bacgkround = document.querySelector('body');
 const container_img = document.querySelector('.container-img');
 const container_temp = document.querySelector('.container-temp');
 const temp_number = document.querySelector('.container-temp div');
@@ -89,6 +90,7 @@ function displayResults(weather) {
 
     let iconName = weather.weather[0].icon;
     container_img.innerHTML = `<img src="./icons/${iconName}.png">`;
+    container_bacgkround.style.backgroundImage = ` url("/backgrounds/${iconName}.jpg")`
 
     let temperature = `${Math.round(weather.main.temp)}`
     temp_number.innerHTML = temperature;
