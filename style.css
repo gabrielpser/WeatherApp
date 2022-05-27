@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body {
+    font-family: 'Arvo', serif;
+    background-image: url("https://raw.githubusercontent.com/gabrielpser/Weather-page/42ea3588aceef9a2874cedb83cbf347909933169/Singularidade.jpg");
+    background-size: cover;
+}
+
+.card-bar {  /*Barra superior de navegação*/
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.input-group{ /*  Barra de Pesquisa */
+    width: 310px;
+}
+
+.card{
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+.btn {
+    border-radius: 20px;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    
+}
+/*
+.card-header{
+    background: rgba(0, 0, 0, 0.75);
+}
+.card-body{
+    background: rgba(0, 0, 0, 0.75);
+}
+
+ */
+.city{
+    color: white;
+    font-size: 32px;
+}
+
+.date {
+    color: white;
+    font-size: 16px;
+}
+
+.container-temp{
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather{
+    color: white;
+    font-size: 32px;
+}
+
+.low-high {
+    color: white;
+    font-size: 22px;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    position: relative;
+    bottom: -223px;
+}
+
+/* .card-footer {
+    display: flex;
+    position: static;
+    bottom: 0px;
+} */
